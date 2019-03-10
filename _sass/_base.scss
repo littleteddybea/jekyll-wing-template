@@ -33,7 +33,8 @@ body {
   padding: 0;
   margin: 0;
 
-  background: url('../img/bg.jpg') no-repeat -400px -550px;
+  background-image: url('../img/bg.jpg');
+  background-size: contain;
 
   letter-spacing: 0.01em;
   line-height: 1.6;
