@@ -35,12 +35,9 @@
         @extend .z-depth-1;
 
 
-        img{
-            object-fit: none; /* Do not scale the image */
+        img {
             object-position: center; /* Center the image within the element */
-            height: 176px;
             width: 176px;
-            border-radius: 50%;
             opacity: 1;
             transition: $anim-speed;
         }
