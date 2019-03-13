@@ -12,6 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $big-font-size:    $base-font-size * 3;
 $base-line-height: 1.5;
+
 $spacing-unit:     30px;
 
 $text-color:       #111;
@@ -29,19 +30,12 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$card-padding: 20px #302c54;
-$card-bg-color: $background-color #302c54;
-$card-link-color: $brand-color #302c54;
-$card-link-color-light: lighten($card-link-color, 20%) #302c54;
-$element-top-margin: $spacing-unit/3 #302c54;
-$element-bottom-margin: ($spacing-unit*2)/3 #302c54;
-element.style {
-.page-content .posts .card-title {
-    color: #302c54;
-    display: block;
-    width: 100%;
-    border-bottom: #302c54 solid 2px;
-}
+$card-padding: 20px !default;
+$card-bg-color: $background-color !default;
+$card-link-color: $brand-color !default;
+$card-link-color-light: lighten($card-link-color, 20%) !default;
+$element-top-margin: $spacing-unit/3 !default;
+$element-bottom-margin: ($spacing-unit*2)/3 !default;
 
 $anim-speed: 0.3s;
 
